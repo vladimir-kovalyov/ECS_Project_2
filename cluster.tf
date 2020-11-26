@@ -8,12 +8,12 @@ resource "aws_ecs_task_definition" "jil_vlad_task" {
   [
     {
       "name": "worker",
-      "image": "603825719481.dkr.ecr.eu-west-1.amazonaws.com/infra_project_jil_vlad:prod-0e53bbff421128966d2a8d257578ce0e22e0c4ca",
+      "image": "603825719481.dkr.ecr.eu-west-1.amazonaws.com/infra_project_jil_vlad:prod-9f2bd2d8adfc8dc90b4971493c96a88b63d907f3",
       "essential": true,
       "portMappings": [
         {
           "containerPort": 80,
-          "hostPort": 0
+          "hostPort": 80
         }
       ],
       "logConfiguration": {
