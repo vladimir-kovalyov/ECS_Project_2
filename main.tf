@@ -7,12 +7,12 @@ terraform {
 # MODULE - NETWORK
 ##################################################################################
 
-module "network" {
-  source = "./modules/network"
+// module "network" {
+//   source = "./modules/network"
 
-  vpc_cidr              = var.vpc_cidr
-  for_tag_name          = var.for_tag_name
-}
+//   vpc_cidr              = var.vpc_cidr
+//   for_tag_name          = var.for_tag_name
+// }
 
 ##################################################################################
 # VARIABLES
