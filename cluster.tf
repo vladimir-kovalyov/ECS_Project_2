@@ -8,7 +8,7 @@ resource "aws_ecs_task_definition" "jil_vlad_task" {
   [
     {
       "name": "worker",
-      "image": "603825719481.dkr.ecr.eu-west-1.amazonaws.com/infra_project_jil_vlad:prod-9f2bd2d8adfc8dc90b4971493c96a88b63d907f3",
+      "image": "603825719481.dkr.ecr.eu-west-1.amazonaws.com/infra_project_jil_vlad:prod-21163761b4179bd1503fce20d14e25677ab161d9",
       "essential": true,
       "portMappings": [
         {
